@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73c852da-6658-476a-9ce2-e5801cce1748" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Selenium-python-sessions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumSessions/HandleAlerts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumSessions/HandleFrames.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumSessions/dragAndDrop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumSessions/fileUploadModule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumSessions/handle_Dropdown_Values.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumSessions/jquery_MultiOptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumSessions/moveToElement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumSessions/webDriver_manager.py" afterDir="false" />
+    <list default="true" id="73c852da-6658-476a-9ce2-e5801cce1748" name="Changes" comment="Adding Python COde">
+      <change afterPath="$PROJECT_DIR$/SeleniumSessions/Headless.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumSessions/amazon_full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumSessions/explicity_Wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumSessions/takeScreeShot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +33,26 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2iEAmALzg2K4ZxE9aeGXu1Ot7w6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.HandleAlerts.executor": "Run",
     "Python.HandleFrames.executor": "Run",
+    "Python.Headless.executor": "Run",
     "Python.dragAndDrop.executor": "Run",
+    "Python.explicity_Wait.executor": "Run",
     "Python.fileUploadModule.executor": "Run",
     "Python.handle_Dropdown_Values.executor": "Run",
     "Python.jquery_MultiOptions.executor": "Run",
     "Python.moveToElement.executor": "Run",
+    "Python.takeScreeShot.executor": "Run",
     "Python.webDriver.executor": "Run",
     "Python.webDriver_manager.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -63,29 +60,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.fileUploadModule">
-    <configuration name="HandleAlerts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Selenium-python-sessions" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumSessions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumSessions/HandleAlerts.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.explicity_Wait">
     <configuration name="HandleFrames" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Selenium-python-sessions" />
       <option name="ENV_FILES" value="" />
@@ -108,7 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dragAndDrop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Headless" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Selenium-python-sessions" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +96,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumSessions/dragAndDrop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumSessions/Headless.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="explicity_Wait" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-python-sessions" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumSessions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumSessions/explicity_Wait.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="moveToElement" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="takeScreeShot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Selenium-python-sessions" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,7 +162,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumSessions/moveToElement.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumSessions/takeScreeShot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.explicity_Wait" />
+        <item itemvalue="Python.takeScreeShot" />
+        <item itemvalue="Python.Headless" />
         <item itemvalue="Python.fileUploadModule" />
         <item itemvalue="Python.HandleFrames" />
-        <item itemvalue="Python.HandleAlerts" />
-        <item itemvalue="Python.dragAndDrop" />
-        <item itemvalue="Python.moveToElement" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +197,32 @@
       <option name="presentableId" value="Default" />
       <updated>1719045518350</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding Python COde">
+      <option name="closed" value="true" />
+      <created>1719301597295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719301597295</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Adding Python COde" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Python COde" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
